@@ -1,0 +1,44 @@
+body{
+  background: #000;
+}
+#board{
+  width: 1024px;
+  height: 863px;
+  margin: 0 auto;
+  background: url(../board.jpg);
+  position: relative;
+}
+#messageArea{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(83,175,19);
+}
+table{
+  position: absolute;
+  left: 173px;
+  top: 98px;
+  border-spacing: 0px;
+}
+td{
+  width: 94px;
+  height: 94px;
+}
+form{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(83,175,19);
+}
+form input{
+  background-color: rgba(152,207,113);
+  border-color: rgb(83,175,19);
+  font-size: 1em;
+}
+.hit{
+  background: url(../ship.png) no-repeat center center;
+}
+.miss{
+  background: url(../miss.png) no-repeat center center;
+}
